@@ -1,0 +1,50 @@
+/* Apply a light pink and yellow gradient background */
+body {
+    background: linear-gradient(to right, #f8c6d5, #fff8b3);
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Bubbly font style */
+}
+
+/* Style for the container */
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for input fields and textareas */
+input[type="text"], 
+input[type="email"], 
+input[type="phone"], 
+textarea {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Style for buttons */
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade of blue for hover effect */
+}
+
+/* Style for form labels */
+label {
+    color: #333;
+    font-weight: bold;
+}
